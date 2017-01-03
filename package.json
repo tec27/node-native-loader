@@ -1,0 +1,27 @@
+{
+  "name": "node-native-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader for node native modules (.node/C++ binaries).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tec27/node-native-loader.git"
+  },
+  "keywords": [
+    "node",
+    "webpack",
+    "native"
+  ],
+  "author": "Travis Collins <travis@tec27.com> (http://tec27.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tec27/node-native-loader/issues"
+  },
+  "homepage": "https://github.com/tec27/node-native-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  }
+}
