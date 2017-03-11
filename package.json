@@ -1,6 +1,6 @@
 {
   "name": "node-native-loader",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A webpack loader for node native modules (.node/C++ binaries).",
   "main": "index.js",
   "scripts": {
