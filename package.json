@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/tec27/node-native-loader#readme",
   "dependencies": {
-    "loader-utils": "^0.2.16"
+    "loader-utils": "^1.0.3"
   }
 }
