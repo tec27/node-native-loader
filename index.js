@@ -6,7 +6,7 @@ module.exports = function process(content) {
     this.cacheable()
   }
 
-  const query = loaderUtils.parseQuery(this.query)
+  const query = loaderUtils.getOptions(this) || {};
   const configKey = query.config || "nodeNativeLoader";
   const options = this.options[configKey] || {};
 
